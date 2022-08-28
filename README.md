@@ -1,4 +1,4 @@
-# React-DOM-Responsive-(MW3-Website)
+# React DOM Responsive (MW3 Website)
 
 
 <picture>
