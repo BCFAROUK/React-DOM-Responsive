@@ -1,0 +1,367 @@
+.mw3-content img {
+  height: 32px;
+  width: 32px;
+}
+
+.colored-h3 h3 {
+  color: greenyellow;
+}
+
+.image-size {
+  height: 80vh;
+  width: 80%;
+}
+
+.container-home {
+  background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.middle-page {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  height: 65vh;
+}
+
+.mw3-cards {
+  margin: 30px;
+}
+
+.mw3-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 20px;
+}
+
+.mw3-content h3 {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: greenyellow;
+}
+
+.mw3-content img {
+  margin-top: 50px;
+}
+
+.mw3-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 20px;
+  padding: 70px;
+}
+
+.mw3-table {
+  margin: 40px;
+}
+
+.mw3-ingame h1 {
+  color: orangered;
+  margin-left: 90px;
+}
+
+.mw3-ingame p {
+  color: greenyellow;
+  margin-left: 45px;
+}
+
+@media screen and (min-width: 320px) {
+  .mw3-content img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .colored-h3 h3 {
+    color: greenyellow;
+  }
+
+  .image-size {
+    height: 80vh;
+    width: 80%;
+  }
+
+  .container-home {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .middle-page {
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
+    height: 120vh;
+  }
+
+  .mw3-cards {
+    margin: 30px;
+  }
+
+  .mw3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+  }
+
+  .mw3-content h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: greenyellow;
+  }
+
+  .mw3-content img {
+    margin-top: 50px;
+  }
+
+  .mw3-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: -40px -40px;
+    padding: 70px;
+    height: 100vh;
+  }
+
+  .mw3-table {
+    margin: 40px;
+  }
+
+  .mw3-ingame h1 {
+    color: orangered;
+    margin-left: 90px;
+  }
+
+  .mw3-ingame p {
+    color: greenyellow;
+    margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mw3-content img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .colored-h3 h3 {
+    color: greenyellow;
+  }
+
+  .image-size {
+    height: 80vh;
+    width: 80%;
+  }
+
+  .container-home {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .middle-page {
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
+    height: 120vh;
+  }
+
+  .mw3-cards {
+    margin: 30px;
+  }
+
+  .mw3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+  }
+
+  .mw3-content h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: greenyellow;
+  }
+
+  .mw3-content img {
+    margin-top: 50px;
+  }
+
+  .mw3-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 20px;
+    padding: 70px;
+  }
+
+  .mw3-table {
+    margin: 40px;
+  }
+
+  .mw3-ingame h1 {
+    color: orangered;
+    margin-left: 90px;
+  }
+
+  .mw3-ingame p {
+    color: greenyellow;
+    margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mw3-content img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .colored-h3 h3 {
+    color: greenyellow;
+  }
+
+  .image-size {
+    height: 80vh;
+    width: 80%;
+  }
+
+  .container-home {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .middle-page {
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
+    height: 75vh;
+  }
+
+  .mw3-cards {
+    margin: 30px;
+  }
+
+  .mw3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+  }
+
+  .mw3-content h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: greenyellow;
+  }
+
+  .mw3-content img {
+    margin-top: 50px;
+  }
+
+  .mw3-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 20px;
+    padding: 70px;
+  }
+
+  .mw3-table {
+    margin: 40px;
+  }
+
+  .mw3-ingame h1 {
+    color: orangered;
+    margin-left: 90px;
+  }
+
+  .mw3-ingame p {
+    color: greenyellow;
+    margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mw3-content img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .colored-h3 h3 {
+    color: greenyellow;
+  }
+
+  .image-size {
+    height: 80vh;
+    width: 80%;
+  }
+
+  .container-home {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  }
+
+  .middle-page {
+    background: radial-gradient(
+      circle at 24.1% 68.8%,
+      rgb(50, 50, 50) 0%,
+      rgb(0, 0, 0) 99.4%
+    );
+    height: 75vh;
+  }
+
+  .mw3-cards {
+    margin: 30px;
+  }
+
+  .mw3-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+  }
+
+  .mw3-content h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: greenyellow;
+  }
+
+  .mw3-content img {
+    margin-top: 50px;
+  }
+
+  .mw3-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 20px;
+    padding: 70px;
+  }
+
+  .mw3-table {
+    margin: 40px;
+  }
+
+  .mw3-ingame h1 {
+    color: orangered;
+    margin-left: 90px;
+  }
+
+  .mw3-ingame p {
+    color: greenyellow;
+    margin-left: 45px;
+  }
+}

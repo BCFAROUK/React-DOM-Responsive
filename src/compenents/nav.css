@@ -1,0 +1,358 @@
+.container-nav {
+  display: flex;
+  position: sticky;
+  background: linear-gradient(50deg, #66c449d2 0%, #008552bb 100%);
+
+  padding: 20px;
+  top: 0;
+  z-index: 99999;
+  border-bottom: solid #94f700;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 10vh;
+  width: 100%;
+}
+
+.logo-av {
+  height: 80px;
+  width: 180px;
+}
+
+.links {
+  margin-left: 40%;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+
+.links a:hover {
+  color: greenyellow;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.nav-buttons button {
+  all: unset;
+  border: 1px solid greenyellow;
+  height: 40px;
+  width: 80px;
+  margin: 5px;
+  color: #414141;
+  background: greenyellow;
+  text-align: center;
+}
+
+.nav-buttons button:hover {
+  border: 1px solid greenyellow;
+  color: #94f700;
+  background: #a19f9f;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+  .container-nav {
+    display: flex;
+    position: sticky;
+    background: linear-gradient(50deg, #66c449d2 0%, #008552bb 100%);
+
+    padding: 20px;
+    top: 0;
+    z-index: 99999;
+    border-bottom: solid #94f700;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 100%;
+  }
+
+  .logo-av {
+    height: 30px;
+    width: 100px;
+  }
+
+  .links {
+    margin-left: 3%;
+  }
+
+  .links a {
+    text-decoration: none;
+    margin: 2px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .links a:hover {
+    color: greenyellow;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+  }
+
+  .nav-buttons button {
+    all: unset;
+    border: 1px solid greenyellow;
+    height: 30px;
+    width: 50px;
+    margin: 2px;
+    color: #414141;
+    background: greenyellow;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .nav-buttons button:hover {
+    border: 1px solid greenyellow;
+    color: #94f700;
+    background: #a19f9f;
+  }
+
+  .nav-buttons a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container-nav {
+    display: flex;
+    position: sticky;
+    background: linear-gradient(50deg, #66c449d2 0%, #008552bb 100%);
+
+    padding: 20px;
+    top: 0;
+    z-index: 99999;
+    border-bottom: solid #94f700;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 100%;
+  }
+
+  .logo-av {
+    height: 30px;
+    width: 120px;
+  }
+
+  .links {
+    margin-left: 5%;
+  }
+
+  .links a {
+    text-decoration: none;
+    margin: 3px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .links a:hover {
+    color: greenyellow;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+  }
+
+  .nav-buttons button {
+    all: unset;
+    border: 1px solid greenyellow;
+    height: 35px;
+    width: 50px;
+    margin: 3px;
+    color: #414141;
+    background: greenyellow;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .nav-buttons button:hover {
+    border: 1px solid greenyellow;
+    color: #94f700;
+    background: #a19f9f;
+  }
+
+  .nav-buttons a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-nav {
+    display: flex;
+    position: sticky;
+    background: linear-gradient(50deg, #66c449d2 0%, #008552bb 100%);
+
+    padding: 20px;
+    top: 0;
+    z-index: 99999;
+    border-bottom: solid #94f700;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 100%;
+  }
+
+  .logo-av {
+    height: 40px;
+    width: 140px;
+  }
+
+  .links {
+    margin-left: 10%;
+  }
+
+  .links a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .links a:hover {
+    color: greenyellow;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .nav-buttons button {
+    all: unset;
+    border: 1px solid greenyellow;
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+    color: #414141;
+    background: greenyellow;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .nav-buttons button:hover {
+    border: 1px solid greenyellow;
+    color: #94f700;
+    background: #a19f9f;
+  }
+
+  .nav-buttons a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-nav {
+    display: flex;
+    position: sticky;
+    background: linear-gradient(50deg, #66c449d2 0%, #008552bb 100%);
+
+    padding: 20px;
+    top: 0;
+    z-index: 99999;
+    border-bottom: solid #94f700;
+  }
+
+  .container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 100%;
+  }
+
+  .logo-av {
+    height: 80px;
+    width: 180px;
+  }
+
+  .links {
+    margin-left: 35%;
+  }
+
+  .links a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+  }
+
+  .links a:hover {
+    color: greenyellow;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .nav-buttons button {
+    all: unset;
+    border: 1px solid greenyellow;
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    color: #414141;
+    background: greenyellow;
+    text-align: center;
+  }
+
+  .nav-buttons button:hover {
+    border: 1px solid greenyellow;
+    color: #94f700;
+    background: #a19f9f;
+  }
+
+  .nav-buttons a {
+    text-decoration: none;
+  }
+}
